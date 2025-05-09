@@ -7,7 +7,8 @@ function obtenerHoraDecimal() {
 
 function pintarFila(colectivo, esProximo) {
   const clase = esProximo ? "bg-success" : "";
-  return `<tr>
+  const id = esProximo ? 'id="proximo-colectivo"' : '';
+  return `<tr ${id}>
             <th scope="row" class="${clase}">${colectivo.nombre}</th>
             <td class="${clase}">${colectivo.recorrido.join(" ➡️ ")}</td>
           </tr>`;
@@ -65,6 +66,13 @@ async function cargarHorarios() {
       cuerpo.innerHTML += fila;
     });
 
+
+    const filaProxima = document.getElementById("proximo-colectivo");
+    if (filaProxima) {
+      filaProxima.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
+    
 
   } catch (error) {
     console.log(error);
