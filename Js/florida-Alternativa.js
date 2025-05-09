@@ -47,7 +47,10 @@ async function cargarHorarios() {
     const cuerpo = document.getElementById("cuerpo-tabla");
 
     idaAlderetes.forEach((colectivo) => {
+
       const fila = dibujarFila(colectivo);
+      
+      
       cuerpo.innerHTML += fila;
     });
 
