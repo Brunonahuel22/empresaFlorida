@@ -23,7 +23,7 @@ let nombreDia;
 
 switch (diaDeHoy) {
   case 6:
-    diaDeSemana = "sabado";
+    diaDeSemana = "sabados";
     nombreDia = 'Sabado';
     break;
   case 0:
@@ -36,12 +36,12 @@ switch (diaDeHoy) {
 }
 
 const titulo = document.getElementById('tituloHorarios');
-console.log(titulo)
+
 titulo.innerText = `Horarios dia ${nombreDia} - Ida Florida → Alderetes`
 
 async function cargarHorarios() {
   try {
-    const respuesta = await fetch("js/horarios.json");
+    const respuesta = await fetch("../js/horarios.json");
     const datos = await respuesta.json();
 
     const idaAlderetes = datos[diaDeSemana].filter(
