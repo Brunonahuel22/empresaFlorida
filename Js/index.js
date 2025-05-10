@@ -37,7 +37,7 @@ function obtenerHoraDecimal() {
   
   const titulo = document.getElementById('tituloHorarios');
   
-  titulo.innerText = `Horarios dia ${nombreDia} - Ida Florida → Alderetes`
+  titulo.innerText = `Horarios dia ${nombreDia} - Ida Florida → Alderetes/Alternativa`
   
   async function cargarHorarios() {
     try {

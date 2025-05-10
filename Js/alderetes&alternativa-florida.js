@@ -7,13 +7,12 @@ function obtenerHoraDecimal() {
 
 function pintarFila(colectivo, esProximo) {
   const clase = esProximo ? "bg-success" : "";
-  const id = esProximo ? 'id="proximo-colectivo"' : '';
+  const id = esProximo ? 'id="proximo-colectivo"' : "";
   return `<tr ${id}>
-            <th scope="row" class="${clase}">${colectivo.nombre}</th>
-            <td class="${clase}">${colectivo.recorrido.join(" ➡️ ")}</td>
-          </tr>`;
+              <th scope="row" class="${clase}">${colectivo.nombre}</th>
+              <td class="${clase}">${colectivo.recorrido.join(" ➡️ ")}</td>
+            </tr>`;
 }
-
 
 const dia = new Date();
 const diaDeHoy = dia.getDay();
@@ -24,7 +23,7 @@ let nombreDia;
 switch (diaDeHoy) {
   case 6:
     diaDeSemana = "sabados";
-    nombreDia = 'Sabado';
+    nombreDia = "Sabado";
     break;
   case 0:
     diaDeSemana = "domingo";
@@ -35,9 +34,9 @@ switch (diaDeHoy) {
     nombreDia = "Día de semana (Lunes a Viernes)";
 }
 
-const titulo = document.getElementById('tituloHorarios');
+const titulo = document.getElementById("tituloHorarios");
 
-titulo.innerText = `Horarios dia ${nombreDia} - Ida Florida → Alderetes/Alternativa`
+titulo.innerText = `Horarios dia ${nombreDia} - Alderetes/Alternativa -> Florida`;
 
 async function cargarHorarios() {
   try {
@@ -46,19 +45,16 @@ async function cargarHorarios() {
 
     const idaAlderetes = datos[diaDeSemana].filter(
       (colectivo) =>
-        colectivo.referencia == "idas florida/alderetes-alternativa"
+        colectivo.referencia == "vueltas florida/alderetes-alternativa"
     );
 
     const horaActualDecimal = obtenerHoraDecimal();
 
     const cuerpo = document.getElementById("cuerpo-tabla");
 
-
     const proximoColectivo = idaAlderetes.find(
       (colectivo) => colectivo.valor_salida > horaActualDecimal
     );
-
-    console.log(proximoColectivo)
 
     idaAlderetes.forEach((colectivo) => {
       const esProximo = colectivo === proximoColectivo;
@@ -66,14 +62,10 @@ async function cargarHorarios() {
       cuerpo.innerHTML += fila;
     });
 
-
     const filaProxima = document.getElementById("proximo-colectivo");
     if (filaProxima) {
       filaProxima.scrollIntoView({ behavior: "smooth", block: "center" });
     }
-
-    
-
   } catch (error) {
     console.log(error);
   }
