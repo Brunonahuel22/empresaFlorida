@@ -26,7 +26,7 @@ function obtenerHoraDecimal() {
       nombreDia = "Sabado";
       break;
     case 0:
-      diaDeSemana = "domingo";
+      diaDeSemana = "domingos";
       nombreDia = "Domingo";
       break;
     default:
