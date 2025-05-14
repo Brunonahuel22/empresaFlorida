@@ -1,0 +1,20 @@
+{
+  "name": "Horarios de Ómnibus",
+  "short_name": "Horarios",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#212529",
+  "icons": [
+    {
+      "src": "img/logoPestaña1.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "img/logoPestaña1.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

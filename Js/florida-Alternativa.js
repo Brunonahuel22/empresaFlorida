@@ -58,7 +58,7 @@ async function cargarHorarios() {
       (colectivo) => colectivo.valor_salida > horaActualDecimal
     );
 
-    console.log(proximoColectivo)
+   
 
     idaAlderetes.forEach((colectivo) => {
       const esProximo = colectivo === proximoColectivo;

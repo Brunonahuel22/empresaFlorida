@@ -11,6 +11,8 @@
     />
     <link rel="icon" href="img/logoPestaña.jpeg" type="image/jpeg" />
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="manifest" href="manifest.json" />
+
     <title>Horarios de Omnibus</title>
   </head>
   <body class="bg-secondary">
@@ -151,5 +153,19 @@
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
       crossorigin="anonymous"
     ></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("sw.js").then(
+            registration => {
+             // console.log("SW registrado:", registration);
+            },
+            err => {
+             // console.log("Error al registrar SW:", err);
+            }
+          );
+        });
+      }
+    </script>
   </body>
 </html>
