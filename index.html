@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <meta
+      property="og:title"
+      content="Horarios de Colectivos - Florida, Tucumán"
+    />
+    <meta
+      property="og:description"
+      content="Proyecto hecho para ayudar a la comunidad con los horarios de colectivos."
+    />
+    <meta property="og:image" content="https://i.imgur.com/zKRh1tl.jpg" />
+    <meta property="og:url" content="https://colectivos1.netlify.app" />
+    <meta property="og:type" content="website" />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -43,7 +55,6 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mx-auto d-flex gap-4">
-           
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -91,7 +102,6 @@
                     >San Miguel - Posse</a
                   >
                 </li>
-                
               </ul>
             </li>
 
@@ -124,7 +134,7 @@
     </nav>
 
     <div class="container table-responsive text-center">
-      <table class="table  table-secondary">
+      <table class="table table-secondary">
         <h2 class="text-white mt-4 mb-4 text-center" id="tituloHorarios">
           Horarios Alderetes - San Miguel
         </h2>
@@ -138,10 +148,12 @@
       </table>
     </div>
 
-    <footer  class="text-center bg-dark text-white py-4 mt-5">
+    <footer class="text-center bg-dark text-white py-4 mt-5">
       <div class="container">
         <p class="mb-1">© 2025 · Horarios Florida · Página no oficial</p>
-        <p class="mb-1">Creada para ayudar mientras el sitio oficial está fuera de línea</p>
+        <p class="mb-1">
+          Creada para ayudar mientras el sitio oficial está fuera de línea
+        </p>
         <p class="mb-0">Desarrollado por <strong>Bruno Córdoba</strong></p>
       </div>
     </footer>
@@ -157,11 +169,11 @@
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
           navigator.serviceWorker.register("sw.js").then(
-            registration => {
-             // console.log("SW registrado:", registration);
+            (registration) => {
+              // console.log("SW registrado:", registration);
             },
-            err => {
-             // console.log("Error al registrar SW:", err);
+            (err) => {
+              // console.log("Error al registrar SW:", err);
             }
           );
         });
