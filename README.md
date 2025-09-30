@@ -13,9 +13,9 @@ El sitio web muestra:
 
 ## 🌐 Demo
 
-📲 Accedé a la página online [haciendo clic aquí](https://TU_USUARIO.github.io/TU_REPOSITORIO)
+📲 Accedé a la página online [haciendo clic aquí](https://colectivos1.netlify.app/)
 
-> ⚠️ Reemplazá el enlace con el real cuando subas tu página a GitHub Pages.
+
 
 ---
 
