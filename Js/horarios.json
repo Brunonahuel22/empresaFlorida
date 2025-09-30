@@ -32,14 +32,25 @@
       ]
     },
     {
-      "nombre": "06:10",
-      "valor_salida": 6.1,
+      "nombre": "06:05",
+      "valor_salida": 6.05,
       "referencia": "idas florida/alderetes-alternativa",
       "recorrido": [
         "fortín",
-        "esquina lastra",
-        "la florida",
-        "el talar",
+        "b° la cancha",
+        
+        "alternativa",
+        
+        "s. m. de tucumán"
+      ]
+    },
+    {
+      "nombre": "06:10",
+      "valor_salida": 6.10,
+      "referencia": "idas florida/alderetes-alternativa",
+      "recorrido": [
+        "fortín",
+        
         "alderetes",
         "banda del río salí",
         "s. m. de tucumán"
@@ -47,13 +58,12 @@
     },
     {
       "nombre": "06:10",
-      "valor_salida": 6.1,
+      "valor_salida": 6.10,
       "referencia": "idas florida/alderetes-alternativa",
       "recorrido": [
         "colonia 10 (luisiana)",
         "colonia 4 (luisiana)",
-        "b° la cancha",
-        "la florida",
+      
         "cochuchal",
         "alderetes",
         "autopista",
@@ -65,13 +75,13 @@
       "valor_salida": 6.2,
       "referencia": "idas florida/alderetes-alternativa",
       "recorrido": [
-        "fortín",
-        "colonia 4 (luisiana)",
+        "colonia 5 de mayo",
+        "fortin",
         "fonda",
         "la florida",
         "el talar",
-        "alderetes",
-        "autopista",
+        "alternativa",
+       
         "s. m. de tucumán"
       ]
     },
@@ -81,10 +91,9 @@
       "referencia": "idas florida/alderetes-alternativa",
       "recorrido": [
         "colonia 4 (luisiana)",
-        "b° la cancha",
-        "la florida",
-        "el talar",
-        "alternativa",
+        "fonda",
+        "alderetes",
+        "autopista",
         "s. m. de tucumán"
       ]
     },
@@ -143,8 +152,8 @@
       ]
     },
     {
-      "nombre": "07:50",
-      "valor_salida": 7.5,
+      "nombre": "07:45",
+      "valor_salida": 7.45,
       "referencia": "idas florida/alderetes-alternativa",
       "recorrido": [
         "colonia 4 (luisiana)",
@@ -152,6 +161,7 @@
         "la florida",
         "el talar",
         "alternativa",
+        
         "s. m. de tucumán"
       ]
     },
@@ -164,11 +174,11 @@
         "b° la cancha",
         "la florida",
         "el talar",
-        "alderetes",
         "autopista",
         "s. m. de tucumán"
       ]
     },
+    
     {
       "nombre": "08:45",
       "valor_salida": 8.45,
@@ -197,14 +207,23 @@
       ]
     },
     {
-      "nombre": "09:55",
-      "valor_salida": 9.55,
+      "nombre": "09:30",
+      "valor_salida": 9.30,
       "referencia": "idas florida/alderetes-alternativa",
       "recorrido": [
-        "colonia 4 (luisiana)",
+        "fortin",
+        "alderetes",
+        "banda del río salí",
+        "s. m. de tucumán"
+      ]
+    },
+    {
+      "nombre": "09:50",
+      "valor_salida": 9.50,
+      "referencia": "idas florida/alderetes-alternativa",
+      "recorrido": [
+        "colonia 4 (florida)",
         "b° la cancha",
-        "la florida",
-        "el talar",
         "alderetes",
         "autopista",
         "s. m. de tucumán"
@@ -240,7 +259,7 @@
     },
     {
       "nombre": "12:30",
-      "valor_salida": 12.3,
+      "valor_salida": 12.30,
       "referencia": "idas florida/alderetes-alternativa",
       "recorrido": [
         "colonia 4 (luisiana)",
@@ -253,14 +272,14 @@
       ]
     },
     {
-      "nombre": "12:35",
-      "valor_salida": 12.35,
+      "nombre": "12:40",
+      "valor_salida": 12.40,
       "referencia": "idas florida/alderetes-alternativa",
       "recorrido": [
-        "b° la cancha",
-        "la florida",
-        "el talar",
-        "alternativa",
+        "Mayo",
+        "fortin",
+        "alderetes",
+        "banda del río salí",
         "s. m. de tucumán"
       ]
     },
@@ -269,12 +288,12 @@
       "valor_salida": 12.5,
       "referencia": "idas florida/alderetes-alternativa",
       "recorrido": [
-        "fortín",
-        "esquina lastra",
-        "la florida",
-        "el talar",
-        "alderetes",
-        "banda del río salí",
+        "la marta",
+        "colonia 4 ",
+        "b° la cancha",
+        
+        "alternativa",
+
         "s. m. de tucumán"
       ]
     },
@@ -287,7 +306,7 @@
         "b° la cancha",
         "la florida",
         "el talar",
-        "alternativa",
+        "alderetes",
         "s. m. de tucumán"
       ]
     },
@@ -331,18 +350,7 @@
         "s. m. de tucumán"
       ]
     },
-    {
-      "nombre": "15:40",
-      "valor_salida": 15.4,
-      "referencia": "idas florida/alderetes-alternativa",
-      "recorrido": [
-        "b° la cancha",
-        "la florida",
-        "el talar",
-        "alternativa",
-        "s. m. de tucumán"
-      ]
-    },
+  
     {
       "nombre": "15:47",
       "valor_salida": 15.47,
@@ -356,6 +364,7 @@
         "s. m. de tucumán"
       ]
     },
+     
     {
       "nombre": "15:50",
       "valor_salida": 15.5,
@@ -371,16 +380,16 @@
       ]
     },
     {
-      "nombre": "16:40",
-      "valor_salida": 16.4,
+      "nombre": "16:20",
+      "valor_salida": 16.20,
       "referencia": "idas florida/alderetes-alternativa",
       "recorrido": [
-        "colonia 4 (luisiana)",
+        "la marta",
+        "Mayo",
+        "colonia 4 (florida) 16:50" ,
         "b° la cancha",
-        "la florida",
-        "el talar",
-        "alderetes",
-        "autopista",
+        "alternativa",
+      
         "s. m. de tucumán"
       ]
     },
@@ -399,19 +408,7 @@
         "s. m. de tucumán"
       ]
     },
-    {
-      "nombre": "16:45",
-      "valor_salida": 16.45,
-      "referencia": "idas florida/alderetes-alternativa",
-      "recorrido": [
-        "colonia 4 (luisiana)",
-        "b° la cancha",
-        "la florida",
-        "el talar",
-        "alternativa",
-        "s. m. de tucumán"
-      ]
-    },
+   
     {
       "nombre": "17:35",
       "valor_salida": 17.35,
@@ -441,15 +438,25 @@
       ]
     },
     {
-      "nombre": "18:30",
-      "valor_salida": 18.3,
+      "nombre": "18:15",
+      "valor_salida": 18.15,
       "referencia": "idas florida/alderetes-alternativa",
       "recorrido": [
-        "fortín",
-        "esquina lastra",
-        "la florida",
-        "el talar",
+        "colonia 4 (luisiana)",
+        "b° la cancha",
+        
+        "alternativa",
+        "s. m. de tucumán"
+      ]
+    },
+    {
+      "nombre": "18:30",
+      "valor_salida": 18.30,
+      "referencia": "idas florida/alderetes-alternativa",
+      "recorrido": [
+        "fortin",
         "alderetes",
+        
         "banda del río salí",
         "s. m. de tucumán"
       ]
@@ -474,7 +481,7 @@
       "valor_salida": 20.55,
       "referencia": "idas florida/alderetes-alternativa",
       "recorrido": [
-        "finca mayo",
+        "finca mayo 21:05",
         "colonia 4 (luisiana)",
         "b° la cancha",
         "la florida",
@@ -485,8 +492,8 @@
       ]
     },
     {
-      "nombre": "05:25",
-      "valor_salida": 5.25,
+      "nombre": "05:20",
+      "valor_salida": 5.20,
       "referencia": "vueltas florida/alderetes-alternativa",
       "recorrido": [
         "s. m. de tucumán",
@@ -565,12 +572,10 @@
       "referencia": "vueltas florida/alderetes-alternativa",
       "recorrido": [
         "s. m. de tucumán",
-        "banda del río salí",
+        "catalinas park",
+        "autopista",
         "alderetes",
-        "el talar",
-        "la florida",
-        "esquina lastra",
-        "fortín"
+        "colonia 4 (luisiana)"
       ]
     },
     {
@@ -647,18 +652,18 @@
       ]
     },
     {
-      "nombre": "12:45",
-      "valor_salida": 12.45,
+      "nombre": "12:40",
+      "valor_salida": 12.40,
       "referencia": "vueltas florida/alderetes-alternativa",
       "recorrido": [
         "s. m. de tucumán",
-        "banda del río salí",
+      
         "alderetes",
         "el talar",
         "la florida",
         "esquina lastra",
         "fortín",
-        "colonia 3 (florida)"
+        "colonia 4 (luisiana)"
       ]
     },
     {
@@ -674,6 +679,19 @@
         "esquina lastra",
         "b° la cancha",
         "colonia 4 (luisiana)"
+      ]
+    },
+    {
+      "nombre": "12:45",
+      "valor_salida": 12.45,
+      "referencia": "vueltas florida/alderetes-alternativa",
+      "recorrido": [
+        "s. m. de tucumán",
+        "banda del río salí",
+        "alderetes",
+        "fortin",
+        "colonia 3 "
+
       ]
     },
     {
@@ -713,13 +731,12 @@
     },
     {
       "nombre": "13:30",
-      "valor_salida": 13.3,
+      "valor_salida": 13.30,
       "referencia": "vueltas florida/alderetes-alternativa",
       "recorrido": [
         "s. m. de tucumán",
         "catalinas park",
-        "autopista",
-        "alderetes",
+        "alternativa",
         "el talar",
         "la florida",
         "esquina lastra",
@@ -779,11 +796,9 @@
       "referencia": "vueltas florida/alderetes-alternativa",
       "recorrido": [
         "s. m. de tucumán",
-        "comisaria 11",
+        
         "alternativa",
-        "el talar",
-        "la florida",
-        "esquina lastra",
+        
         "b° la cancha",
         "colonia 4 (luisiana)"
       ]
@@ -821,6 +836,17 @@
       "referencia": "vueltas florida/alderetes-alternativa",
       "recorrido": [
         "s. m. de tucumán",
+   
+        "alternativa",
+        "colonia 4 (luisiana)"
+      ]
+    },
+    {
+      "nombre": "17:45",
+      "valor_salida": 17.45,
+      "referencia": "vueltas florida/alderetes-alternativa",
+      "recorrido": [
+        "s. m. de tucumán",
         "banda del río salí",
         "alderetes",
         "el talar",
@@ -834,6 +860,22 @@
     {
       "nombre": "18:30",
       "valor_salida": 18.3,
+      "referencia": "vueltas florida/alderetes-alternativa",
+      "recorrido": [
+        "s. m. de tucumán",
+        "comisaria 11",
+        "alternativa",
+        "el talar",
+        "la florida",
+        "esquina lastra",
+        "b° la cancha",
+
+        "colonia 4 (luisiana)"
+      ]
+    },
+    {
+      "nombre": "18:55",
+      "valor_salida": 18.55,
       "referencia": "vueltas florida/alderetes-alternativa",
       "recorrido": [
         "s. m. de tucumán",
@@ -866,26 +908,47 @@
       "referencia": "vueltas florida/alderetes-alternativa",
       "recorrido": [
         "s. m. de tucumán",
+        
+        "alternativa",
+        "b° la cancha",
+        "colonia 4 (luisiana)"
+      ]
+    },
+    {
+      "nombre": "19:45",
+      "valor_salida": 19.45,
+      "referencia": "vueltas florida/alderetes-alternativa",
+      "recorrido": [
+        "s. m. de tucumán",
+        
         "banda del río salí",
         "alderetes",
-        "el talar",
-        "la florida",
-        "esquina lastra",
-        "fortín",
+        "fortin",
         "finca mayo"
       ]
     },
     {
+      "nombre": "20:20",
+      "valor_salida": 20.20,
+      "referencia": "vueltas florida/alderetes-alternativa",
+      "recorrido": [
+        "s. m. de tucumán",
+     
+        "alternativa",
+        "el talar",
+        "b° la cancha",
+        "colonia 4 (luisiana)"
+      ]
+    },
+    {
       "nombre": "20:30",
-      "valor_salida": 20.3,
+      "valor_salida": 20.30,
       "referencia": "vueltas florida/alderetes-alternativa",
       "recorrido": [
         "s. m. de tucumán",
         "banda del río salí",
         "alderetes",
-        "el talar",
-        "la florida",
-        "esquina lastra",
+       
         "fortín"
       ]
     },
@@ -898,7 +961,7 @@
         "comisaria 11",
         "autopista",
         "alderetes",
-        "el talar",
+        "b° la cancha",
         "la florida",
         "colonia 4 (luisiana)"
       ]
