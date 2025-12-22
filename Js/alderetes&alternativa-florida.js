@@ -4,14 +4,47 @@ function obtenerHoraDecimal() {
   const minutos = ahora.getMinutes();
   return horas + minutos / 60;
 }
+function decimalAHora(decimal) {
+  const h = Math.floor(decimal);
+  const m = Math.round((decimal - h) * 60);
+  return `${h}:${m.toString().padStart(2, "0")}`;
+}
 
-function pintarFila(colectivo, esProximo) {
-  const clase = esProximo ? "bg-success" : "";
+function pintarRecorrido(recorrido) {
+  if (!recorrido || !recorrido.length) return "";
+
+  return `
+    <ul class="list-unstyled mb-0">
+      ${recorrido.map((p) => `<li>📍 ${p}</li>`).join("")}
+    </ul>
+  `;
+}
+
+function pintarCard(colectivo, esProximo) {
+  const clase = esProximo ? "border-success bg-success-subtle" : "";
   const id = esProximo ? 'id="proximo-colectivo"' : "";
-  return `<tr ${id}>
-              <th scope="row" class="${clase}">${colectivo.nombre}</th>
-              <td class="${clase}">${colectivo.recorrido.join(" ➡️ ")}</td>
-            </tr>`;
+
+  return `
+    <div class="col-12 col-md-6 col-lg-4 mb-4">
+      <div class="card ${clase}" ${id}>
+        <div class="card-body">
+          <h3 class="card-title">🕒 ${colectivo.nombre}</h3>
+
+          ${
+            esProximo
+              ? '<span class="badge bg-success">Próximo Colectivo</span>'
+              : ""
+          }
+        </div>
+
+        <ul class="list-group list-group-flush ">
+          ${colectivo.recorrido
+            .map((p) => `<li class="list-group-item ">📍 ${p}</li>`)
+            .join("")}
+        </ul>
+      </div>
+    </div>
+  `;
 }
 
 const dia = new Date();
@@ -45,12 +78,13 @@ async function cargarHorarios() {
 
     const idaAlderetes = datos[diaDeSemana].filter(
       (colectivo) =>
-        colectivo.referencia == "vueltas florida/alderetes-alternativa"
+         colectivo.referencia == "vueltas florida/alderetes-alternativa"
     );
 
     const horaActualDecimal = obtenerHoraDecimal();
 
-    const cuerpo = document.getElementById("cuerpo-tabla");
+    const contenedor = document.getElementById("cards-container");
+    contenedor.innerHTML = "";
 
     const proximoColectivo = idaAlderetes.find(
       (colectivo) => colectivo.valor_salida > horaActualDecimal
@@ -58,8 +92,7 @@ async function cargarHorarios() {
 
     idaAlderetes.forEach((colectivo) => {
       const esProximo = colectivo === proximoColectivo;
-      const fila = pintarFila(colectivo, esProximo);
-      cuerpo.innerHTML += fila;
+      contenedor.innerHTML += pintarCard(colectivo, esProximo);
     });
 
     const filaProxima = document.getElementById("proximo-colectivo");
@@ -72,3 +105,4 @@ async function cargarHorarios() {
 }
 
 cargarHorarios();
+
