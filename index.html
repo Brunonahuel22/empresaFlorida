@@ -2,25 +2,36 @@
 <html lang="es">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SLK71MDYPZ"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SLK71MDYPZ"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-  
-      gtag('config', 'G-SLK71MDYPZ');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-SLK71MDYPZ");
     </script>
-  
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="image" content="https://i.imgur.com/zKRh1tl.jpg" />
-  
-    <meta property="og:title" content="Horarios de Colectivos - Florida, Tucumán" />
-    <meta property="og:description" content="Proyecto hecho para ayudar a la comunidad con los horarios de colectivos." />
+
+    <meta
+      property="og:title"
+      content="Horarios de Colectivos - Florida, Tucumán"
+    />
+    <meta
+      property="og:description"
+      content="Proyecto hecho para ayudar a la comunidad con los horarios de colectivos."
+    />
     <meta property="og:image" content="https://i.imgur.com/zKRh1tl.jpg" />
     <meta property="og:url" content="https://colectivos1.netlify.app" />
     <meta property="og:type" content="website" />
-  
+
     <link rel="icon" href="img/logoPestaña.jpeg" type="image/jpeg" />
     <link rel="stylesheet" href="style/style.css" />
     <link
@@ -32,8 +43,7 @@
     <link rel="manifest" href="manifest.json" />
     <title>Horarios de Omnibus</title>
   </head>
-  
-  
+
   <body class="bg-secondary">
     <nav
       class="navbar bg-dark navbar-expand-lg bg-body-tertiary sticky-top"
@@ -64,7 +74,7 @@
           <ul class="navbar-nav mx-auto d-flex gap-4">
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle "
+                class="nav-link dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -74,7 +84,9 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item active" href="Pages/FloridaxAlderetes.html"
+                  <a
+                    class="dropdown-item active"
+                    href="Pages/FloridaxAlderetes.html"
                     >Alderetes/Alternativa - San Miguel</a
                   >
                 </li>
@@ -140,19 +152,12 @@
       </div>
     </nav>
 
-    <div class="container table-responsive text-center">
-      <table class="table table-secondary">
-        <h2 class="text-white mt-4 mb-4 text-center" id="tituloHorarios">
-          Horarios Alderetes - San Miguel
-        </h2>
-        <thead>
-          <tr>
-            <th scope="col">Horarios</th>
-            <th scope="col">Puntos del recorrido</th>
-          </tr>
-        </thead>
-        <tbody id="cuerpo-tabla"></tbody>
-      </table>
+    <div class="container mt-4">
+      <h2 class="text-white text-center mb-4" id="tituloHorarios">
+        Horarios Alderetes - San Miguel
+      </h2>
+
+      <div id="cards-container" class="row g-3 justify-content-center"></div>
     </div>
 
     <footer class="text-center bg-dark text-white py-4 mt-5">
