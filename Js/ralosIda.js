@@ -70,6 +70,8 @@ switch (diaDeHoy) {
 const titulo = document.getElementById("tituloHorarios");
 
  titulo.innerText = `Horarios dia ${nombreDia} - Ralos -> San Miguel`;
+ document.getElementById("year").innerText = new Date().getFullYear();
+
 
 async function cargarHorarios() {
   try {

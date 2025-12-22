@@ -69,7 +69,11 @@ switch (diaDeHoy) {
 
 const titulo = document.getElementById("tituloHorarios");
 
-titulo.innerText = `Horarios dia ${nombreDia} - Posse -> San Miguel`;
+
+titulo.innerText = `🚍 Posse → San Miguel`;
+document.getElementById("year").innerText = new Date().getFullYear();
+
+document.getElementById("subTituloHorarios").innerText =`⏱️ ${nombreDia}`;
 
 async function cargarHorarios() {
   try {

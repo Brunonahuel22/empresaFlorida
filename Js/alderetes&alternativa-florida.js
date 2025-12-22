@@ -71,6 +71,13 @@ const titulo = document.getElementById("tituloHorarios");
 
 titulo.innerText = `Horarios dia ${nombreDia} - Alderetes/Alternativa -> Florida`;
 
+
+titulo.innerText = `🚍 Alderetes / Alternativa → Florida`;
+document.getElementById("year").innerText = new Date().getFullYear();
+
+
+document.getElementById("subTituloHorarios").innerText =`⏱️ ${nombreDia}`;
+
 async function cargarHorarios() {
   try {
     const respuesta = await fetch("../js/horarios.json");

@@ -69,7 +69,13 @@ switch (diaDeHoy) {
 
 const titulo = document.getElementById("tituloHorarios");
 
-titulo.innerText = `Horarios dia ${nombreDia} - Ida Florida → Alderetes/Alternativa`;
+titulo.innerText = `🚍 Florida → Alderetes / Alternativa`;
+
+document.getElementById("subTituloHorarios").innerText =
+  `⏱️ ${nombreDia}`;
+ 
+  document.getElementById("year").innerText = new Date().getFullYear();
+
 
 async function cargarHorarios() {
   try {

@@ -15,7 +15,7 @@ function pintarRecorrido(recorrido) {
 
   return `
     <ul class="list-unstyled mb-0">
-      ${recorrido.map((p) => `<li>📍 ${p}</li>`).join("")}
+      ${recorrido.map(p => `<li>📍 ${p}</li>`).join("")}
     </ul>
   `;
 }
@@ -30,22 +30,24 @@ function pintarCard(colectivo, esProximo) {
         <div class="card-body">
           <h3 class="card-title">🕒 ${colectivo.nombre}</h3>
 
-          ${
-            esProximo
-              ? '<span class="badge bg-success">Próximo Colectivo</span>'
-              : ""
-          }
+          ${esProximo ? '<span class="badge bg-success">Próximo Colectivo</span>' : ""}
         </div>
 
         <ul class="list-group list-group-flush ">
           ${colectivo.recorrido
-            .map((p) => `<li class="list-group-item ">📍 ${p}</li>`)
+            .map(p => `<li class="list-group-item ">📍 ${p}</li>`)
             .join("")}
         </ul>
       </div>
     </div>
   `;
 }
+
+
+
+
+
+
 
 const dia = new Date();
 const diaDeHoy = dia.getDay();
@@ -69,7 +71,13 @@ switch (diaDeHoy) {
 
 const titulo = document.getElementById("tituloHorarios");
 
-titulo.innerText = `Horarios dia ${nombreDia} - Ida Florida → Alderetes/Alternativa`;
+titulo.innerText = `🚍 Florida → Alderetes / Alternativa`;
+document.getElementById("year").innerText = new Date().getFullYear();
+
+
+document.getElementById("subTituloHorarios").innerText =`⏱️ ${nombreDia}`;
+
+
 
 async function cargarHorarios() {
   try {
