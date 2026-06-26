@@ -35,7 +35,12 @@
       "nombre": "06:05",
       "valor_salida": 6.1,
       "referencia": "idas florida/alderetes-alternativa",
-      "recorrido": ["fortín", "b° la cancha", "alternativa", "s. m. de tucumán"]
+      "recorrido": [
+        "fortín",
+        "b° la cancha",
+        "alternativa",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "06:10",
@@ -43,7 +48,6 @@
       "referencia": "idas florida/alderetes-alternativa",
       "recorrido": [
         "fortín",
-
         "alderetes",
         "banda del río salí",
         "s. m. de tucumán"
@@ -56,7 +60,6 @@
       "recorrido": [
         "colonia 10 (luisiana)",
         "colonia 4 (luisiana)",
-
         "cochuchal",
         "alderetes",
         "autopista",
@@ -74,7 +77,6 @@
         "la florida",
         "el talar",
         "alternativa",
-
         "s. m. de tucumán"
       ]
     },
@@ -178,7 +180,6 @@
         "s. m. de tucumán"
       ]
     },
-
     {
       "nombre": "08:20",
       "valor_salida": 8.2,
@@ -194,7 +195,6 @@
         "s. m. de tucumán"
       ]
     },
-
     {
       "nombre": "08:45",
       "valor_salida": 8.45,
@@ -231,7 +231,6 @@
         "s. m. de tucumán"
       ]
     },
-
     {
       "nombre": "10:40",
       "valor_salida": 10.4,
@@ -276,7 +275,11 @@
       "nombre": "12:35",
       "valor_salida": 12.3,
       "referencia": "idas florida/alderetes-alternativa",
-      "recorrido": ["b° la cancha", "la florida", "Servicio hasta alderetes"]
+      "recorrido": [
+        "b° la cancha",
+        "la florida",
+        "Servicio hasta alderetes"
+      ]
     },
     {
       "nombre": "12:40",
@@ -306,7 +309,30 @@
         "s. m. de tucumán"
       ]
     },
-
+    {
+      "nombre": "13:15",
+      "valor_salida": 13.4,
+      "referencia": "idas florida/alderetes-alternativa",
+      "recorrido": [
+        "colonia 4 (luisiana)",
+        "Plaza de mayo",
+        "b° la cancha",
+        "alternativa",
+        "s. m. de tucumán"
+      ]
+    },
+    {
+      "nombre": "13:50",
+      "valor_salida": 13.5,
+      "referencia": "idas florida/alderetes-alternativa",
+      "recorrido": [
+        "b° la cancha",
+        "cochuchal",
+        "alderetes",
+        "banda del río salí",
+        "s. m. de tucumán"
+      ]
+    },
     {
       "nombre": "14:50",
       "valor_salida": 14.5,
@@ -321,7 +347,6 @@
         "s. m. de tucumán"
       ]
     },
-
     {
       "nombre": "15:47",
       "valor_salida": 15.47,
@@ -335,7 +360,6 @@
         "s. m. de tucumán"
       ]
     },
-
     {
       "nombre": "15:50",
       "valor_salida": 15.5,
@@ -382,6 +406,19 @@
       ]
     },
     {
+      "nombre": "17:35",
+      "valor_salida": 17.3,
+      "referencia": "idas florida/alderetes-alternativa",
+      "recorrido": [
+        "colonia 4 (luisiana)",
+        "b° la cancha",
+        "el talar",
+        "alternativa",
+        "Gobernador del campo",
+        "s. m. de tucumán"
+      ]
+    },
+    {
       "nombre": "17:50",
       "valor_salida": 17.5,
       "referencia": "idas florida/alderetes-alternativa",
@@ -399,7 +436,12 @@
       "nombre": "18:10",
       "valor_salida": 18.1,
       "referencia": "idas florida/alderetes-alternativa",
-      "recorrido": ["Col 4", "b° la cancha", "alternativa", "s. m. de tucumán"]
+      "recorrido": [
+        "Col 4",
+        "b° la cancha",
+        "alternativa",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "18:30",
@@ -408,12 +450,10 @@
       "recorrido": [
         "fortin",
         "alderetes",
-
         "banda del río salí",
         "s. m. de tucumán"
       ]
     },
-
     {
       "nombre": "19:00",
       "valor_salida": 19,
@@ -485,7 +525,6 @@
         "alderetes",
         "el talar",
         "la florida",
-
         "fortín",
         "colonia 2,3,4 y 5 florida",
         "finca mayo",
@@ -636,7 +675,11 @@
       "nombre": "12:40",
       "valor_salida": 12.4,
       "referencia": "vueltas florida/alderetes-alternativa",
-      "recorrido": ["Cruz Papel (Alderetes)", "Florida", "colonia 4 (luisiana)"]
+      "recorrido": [
+        "Cruz Papel (Alderetes)",
+        "Florida",
+        "colonia 4 (luisiana)"
+      ]
     },
     {
       "nombre": "12:45",
@@ -652,7 +695,20 @@
         "colonia 4 (luisiana)"
       ]
     },
-
+    {
+      "nombre": "12:45",
+      "valor_salida": 12.45,
+      "referencia": "vueltas florida/alderetes-alternativa",
+      "recorrido": [
+        "s. m. de tucumán",
+        "banda del río salí",
+        "Alderetes",
+        "el talar",
+        "esquina lastra",
+        "fortin",
+        "colonia 3 (Florida)"
+      ]
+    },
     {
       "nombre": "13:15",
       "valor_salida": 13.15,
@@ -665,7 +721,6 @@
         "la florida",
         "esquina lastra",
         "b° la cancha",
-
         "colonia 4 (luisiana)"
       ]
     },
@@ -700,7 +755,6 @@
         "la marta"
       ]
     },
-
     {
       "nombre": "14:00",
       "valor_salida": 14,
@@ -714,7 +768,6 @@
         "fortín",
         "esquina lastra",
         "b° la cancha",
-
         "colonia 4 (luisiana)"
       ]
     },
@@ -752,14 +805,11 @@
       "referencia": "vueltas florida/alderetes-alternativa",
       "recorrido": [
         "s. m. de tucumán",
-
         "alternativa",
-
         "b° la cancha",
         "colonia 4 (luisiana)"
       ]
     },
-
     {
       "nombre": "16:50",
       "valor_salida": 16.5,
@@ -768,7 +818,6 @@
         "s. m. de tucumán",
         "Coronel Suarez",
         "Alternativa",
-
         "la florida",
         "Fonda",
         "colonia 4 (luisiana)"
@@ -797,9 +846,7 @@
         "Coronel Suarez",
         "Alternativa",
         "Ingreso x Col 4 Luisiana",
-
         "b° la cancha",
-
         "Florida"
       ]
     },
@@ -831,11 +878,9 @@
         "la florida",
         "esquina lastra",
         "b° la cancha",
-
         "colonia 4 (luisiana)"
       ]
     },
-
     {
       "nombre": "19:00",
       "valor_salida": 19.0,
@@ -858,18 +903,6 @@
         "Florida",
         "b° la cancha",
         "colonia 4 (luisiana)"
-      ]
-    },
-    {
-      "nombre": "19:45",
-      "valor_salida": 19.45,
-      "referencia": "vueltas florida/alderetes-alternativa",
-      "recorrido": [
-        "s. m. de tucumán",
-        "banda del río salí",
-        "alderetes",
-        "fortin",
-        "finca mayo"
       ]
     },
     {
@@ -966,21 +999,32 @@
       "nombre": "04:50",
       "valor_salida": 4.5,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "05:50",
       "valor_salida": 5.5,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "06:20",
       "valor_salida": 6.2,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
-
     {
       "nombre": "06:30",
       "valor_salida": 6.3,
@@ -1014,31 +1058,48 @@
       "nombre": "07:00",
       "valor_salida": 7.0,
       "referencia": "idas posse",
-      "recorrido": ["Florida (especial escolar) hasta llona"]
+      "recorrido": [
+        "Florida (especial escolar) hasta llona"
+      ]
     },
     {
       "nombre": "07:03",
       "valor_salida": 7.03,
       "referencia": "idas posse",
-      "recorrido": ["Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "07:08",
       "valor_salida": 7.08,
       "referencia": "idas posse",
-      "recorrido": ["Plaza de Posse", "fila de la orilla", "s. m. de tucumán"]
+      "recorrido": [
+        "Plaza de Posse",
+        "fila de la orilla",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "07:20",
       "valor_salida": 7.4,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "07:55",
       "valor_salida": 7.55,
       "referencia": "idas posse",
-      "recorrido": ["Fortin", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "Fortin",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "08:10",
@@ -1073,7 +1134,11 @@
       "nombre": "08:20",
       "valor_salida": 8.2,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "09:10",
@@ -1108,13 +1173,21 @@
       "nombre": "09:10",
       "valor_salida": 9.1,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "09:50",
       "valor_salida": 9.5,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "10:10",
@@ -1134,31 +1207,51 @@
       "nombre": "10:20",
       "valor_salida": 10.2,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "10:50",
       "valor_salida": 10.5,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "11:20",
       "valor_salida": 11.2,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "11:50",
       "valor_salida": 11.5,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "12:40",
       "valor_salida": 12.4,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "13:00",
@@ -1178,19 +1271,31 @@
       "nombre": "13:20",
       "valor_salida": 13.2,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "13:25",
       "valor_salida": 13.25,
       "referencia": "idas posse",
-      "recorrido": ["Fortin", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "Fortin",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "13:50",
       "valor_salida": 13.5,
       "referencia": "idas posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "14:10",
@@ -1225,9 +1330,12 @@
       "nombre": "15:55",
       "valor_salida": 15.55,
       "referencia": "idas posse",
-      "recorrido": ["Fortin", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "Fortin",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
-
     {
       "nombre": "16:10",
       "valor_salida": 16.1,
@@ -1246,7 +1354,11 @@
       "nombre": "16:50",
       "valor_salida": 16.5,
       "referencia": "idas posse",
-      "recorrido": ["Fortin", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "Fortin",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "17:00",
@@ -1277,7 +1389,7 @@
         "s. m. de tucumán"
       ]
     },
-   {
+    {
       "nombre": "17:50",
       "valor_salida": 17.50,
       "referencia": "idas posse",
@@ -1421,7 +1533,7 @@
       "valor_salida": 5.5,
       "referencia": "idas florida/posse",
       "recorrido": [
-         "b° la cancha",
+        "b° la cancha",
         "Florida x Posse",
         "s. m. de tucumán"
       ]
@@ -1431,9 +1543,20 @@
       "valor_salida": 6.2,
       "referencia": "idas florida/posse",
       "recorrido": [
-         "b° la cancha",
+        "b° la cancha",
         "Florida x Posse",
         "s. m. de tucumán"
+      ]
+    },
+    {
+      "nombre": "06:50",
+      "valor_salida": 6.5,
+      "referencia": "idas florida/posse",
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "banda del río salí",
+        "San miguel de tucumán"
       ]
     },
     {
@@ -1441,18 +1564,12 @@
       "valor_salida": 7.0,
       "referencia": "idas florida/posse",
       "recorrido": [
-         "Florida (especial escolar) hasta llona"
-        
-      ]
-    },
-    {
-      "nombre": "07:03",
-      "valor_salida": 7.0,
-      "referencia": "idas florida/posse",
-      "recorrido": [
-         "Florida x Posse",
-        "s. m. de tucumán"
-        
+        "b° la cancha",
+        "el paraíso",
+        "w. posse",
+        "esquina llona",
+        "cevil pozo",
+        "banda del río salí"
       ]
     },
     {
@@ -1460,24 +1577,18 @@
       "valor_salida": 7.20,
       "referencia": "idas florida/posse",
       "recorrido": [
-         "B° la cancha",
+        "B° la cancha",
         "Florida x Posse",
         "Tuc"
-        
       ]
     },
-    
-
-
     {
       "nombre": "07:55",
       "valor_salida": 7.55,
       "referencia": "idas florida/posse",
       "recorrido": [
         "Fortín",
-        
         "Florida x Posse",
-        
         "s. m. de tucumán"
       ]
     },
@@ -1487,7 +1598,7 @@
       "referencia": "idas florida/posse",
       "recorrido": [
         "b° la cancha",
-       "Florida x Posse",
+        "Florida x Posse",
         "s. m. de tucumán"
       ]
     },
@@ -1497,7 +1608,7 @@
       "referencia": "idas florida/posse",
       "recorrido": [
         "b° la cancha",
-        "Florida x Posse", 
+        "Florida x Posse",
         "Tuc"
       ]
     },
@@ -1592,15 +1703,6 @@
       ]
     },
     {
-      "nombre": "12:40",
-      "valor_salida": 12.4,
-      "referencia": "idas florida/posse",
-      "recorrido": [
-        "Florida (especial escolar) hasta llona"
-        
-      ]
-    },
-    {
       "nombre": "13:20",
       "valor_salida": 13.20,
       "referencia": "idas florida/posse",
@@ -1644,7 +1746,6 @@
         "s. m. de tucumán"
       ]
     },
-   
     {
       "nombre": "15:55",
       "valor_salida": 15.55,
@@ -1695,7 +1796,6 @@
         "s. m. de tucumán"
       ]
     },
-    
     {
       "nombre": "19:30",
       "valor_salida": 19.3,
@@ -1804,7 +1904,6 @@
         "s. m. de tucumán"
       ]
     },
-
     {
       "nombre": "00:30",
       "valor_salida": 0.3,
@@ -1994,7 +2093,6 @@
         "Hasta Longo"
       ]
     },
-
     {
       "nombre": "11:15",
       "valor_salida": 11.15,
@@ -2018,9 +2116,7 @@
       "referencia": "vueltas florida/posse",
       "recorrido": [
         "s. m. de tucumán",
-
         "w. posse",
-        
         "b° la cancha"
       ]
     },
@@ -2037,6 +2133,20 @@
         "w. posse",
         "el paraíso",
         "la florida",
+        "b° la cancha"
+      ]
+    },
+    {
+      "nombre": "12:20",
+      "valor_salida": 12.3,
+      "referencia": "vueltas florida/posse",
+      "recorrido": [
+        "s. m. de tucumán",
+        "banda del río salí",
+        "cevil pozo",
+        "fila del medio",
+        "w. posse",
+        "el paraíso",
         "b° la cancha"
       ]
     },
@@ -2065,7 +2175,6 @@
         "s. m. de tucumán",
         "banda del río salí",
         "cevil pozo",
-        "colonia media agua",
         "esquina llona",
         "w. posse",
         "el paraíso",
@@ -2074,23 +2183,33 @@
       ]
     },
     {
-      "nombre": "13:00",
-      "valor_salida": 13,
+      "nombre": "13:30",
+      "valor_salida": 13.3,
       "referencia": "vueltas florida/posse",
       "recorrido": [
         "s. m. de tucumán",
         "banda del río salí",
         "cevil pozo",
-        "colonia media agua",
         "esquina llona",
         "w. posse",
         "el paraíso",
-        "la florida",
-        "b° la cancha"
+        "esquina lastra"
       ]
     },
-
-    
+    {
+      "nombre": "13:45",
+      "valor_salida": 13.4,
+      "referencia": "vueltas florida/posse",
+      "recorrido": [
+        "s. m. de tucumán",
+        "banda del río salí",
+        "cevil pozo",
+        "esquina llona",
+        "w. posse",
+        "el paraíso",
+        "esquina lastra"
+      ]
+    },
     {
       "nombre": "14:05",
       "valor_salida": 14.05,
@@ -2108,16 +2227,14 @@
       ]
     },
     {
-      "nombre": "14:45",
-      "valor_salida": 14.4,
+      "nombre": "14:30",
+      "valor_salida": 14.3,
       "referencia": "vueltas florida/posse",
       "recorrido": [
         "s. m. de tucumán",
-       
         "w. posse",
-        
         "la florida",
-        "Fortin"
+        "esquina lastra"
       ]
     },
     {
@@ -2159,9 +2276,7 @@
       "referencia": "vueltas florida/posse",
       "recorrido": [
         "s. m. de tucumán",
-        
         "w. posse",
-        
         "la florida",
         "b° la cancha"
       ]
@@ -2172,14 +2287,11 @@
       "referencia": "vueltas florida/posse",
       "recorrido": [
         "s. m. de tucumán",
-        
         "w. posse",
-        
         "la florida",
         "Fortin"
       ]
     },
-   
     {
       "nombre": "18:00",
       "valor_salida": 18,
@@ -2218,10 +2330,9 @@
       "valor_salida": 18.4,
       "referencia": "vueltas florida/posse",
       "recorrido": [
-        "Chango Mas (Banda)",  
+        "Chango Mas (Banda)",
         "w. posse",
         "b° la cancha"
-        
       ]
     },
     {
@@ -2230,9 +2341,7 @@
       "referencia": "vueltas florida/posse",
       "recorrido": [
         "s. m. de tucumán",
-       
         "w. posse",
-       
         "b° la cancha",
         "colonia 4 (luisiana)"
       ]
@@ -2253,32 +2362,13 @@
         "b° la cancha"
       ]
     },
-     {
+    {
       "nombre": "19:40",
       "valor_salida": 19.4,
       "referencia": "vueltas florida/posse",
       "recorrido": [
-        "Chango Mas (Banda)",  
+        "Chango Mas (Banda)",
         "w. posse",
-        "b° la cancha"
-        
-      ]
-    },
-
-
-    {
-      "nombre": "20:00",
-      "valor_salida": 20,
-      "referencia": "vueltas florida/posse",
-      "recorrido": [
-        "s. m. de tucumán",
-        "banda del río salí",
-        "cevil pozo",
-        "colonia media agua",
-        "esquina llona",
-        "w. posse",
-        "el paraíso",
-        "la florida",
         "b° la cancha"
       ]
     },
@@ -2298,6 +2388,7 @@
         "b° la cancha"
       ]
     },
+    
     {
       "nombre": "20:30",
       "valor_salida": 20.3,
@@ -2417,9 +2508,12 @@
       "nombre": "05:20",
       "valor_salida": 5.2,
       "referencia": "idas ralos",
-      "recorrido": ["Los Ralos", "cruz alta", "s. m. de tucumán"]
+      "recorrido": [
+        "Los Ralos",
+        "cruz alta",
+        "s. m. de tucumán"
+      ]
     },
-
     {
       "nombre": "06:05",
       "valor_salida": 6.05,
@@ -2431,14 +2525,16 @@
         "s. m. de tucumán"
       ]
     },
-
     {
       "nombre": "07:20",
       "valor_salida": 7.2,
       "referencia": "idas ralos",
-      "recorrido": ["los ralos", "cruz alta", "s. m. de tucumán"]
+      "recorrido": [
+        "los ralos",
+        "cruz alta",
+        "s. m. de tucumán"
+      ]
     },
-
     {
       "nombre": "08:10",
       "valor_salida": 8.1,
@@ -2453,46 +2549,65 @@
         "s. m. de tucumán"
       ]
     },
-
     {
       "nombre": "12:10",
       "valor_salida": 12.1,
       "referencia": "idas ralos",
-      "recorrido": ["colonia 9", "cruz alta", "s. m. de tucumán"]
+      "recorrido": [
+        "colonia 9",
+        "cruz alta",
+        "s. m. de tucumán"
+      ]
     },
-
     {
       "nombre": "14:15",
       "valor_salida": 14.15,
       "referencia": "idas ralos",
-      "recorrido": ["los ralos", "cruz alta", "s. m. de tucumán"]
+      "recorrido": [
+        "los ralos",
+        "cruz alta",
+        "s. m. de tucumán"
+      ]
     },
-
     {
       "nombre": "18:30",
       "valor_salida": 18.3,
       "referencia": "idas ralos",
-      "recorrido": ["colonia 9", "cruz alta", "s. m. de tucumán"]
+      "recorrido": [
+        "colonia 9",
+        "cruz alta",
+        "s. m. de tucumán"
+      ]
     },
-
     {
       "nombre": "06:50",
       "valor_salida": 6.5,
       "referencia": "vueltas ralos",
-      "recorrido": ["s. m. de tucumán", "cruz alta", "los ralos"]
+      "recorrido": [
+        "s. m. de tucumán",
+        "cruz alta",
+        "los ralos"
+      ]
     },
-
     {
       "nombre": "10:45",
       "valor_salida": 10.45,
       "referencia": "vueltas ralos",
-      "recorrido": ["s. m. de tucumán", "cruz alta", "los ralos"]
+      "recorrido": [
+        "s. m. de tucumán",
+        "cruz alta",
+        "los ralos"
+      ]
     },
     {
       "nombre": "12:00",
       "valor_salida": 12.0,
       "referencia": "vueltas ralos",
-      "recorrido": ["s. m. de tucumán", "cruz alta", "los ralos"]
+      "recorrido": [
+        "s. m. de tucumán",
+        "cruz alta",
+        "los ralos"
+      ]
     },
     {
       "nombre": "11:35",
@@ -2507,28 +2622,36 @@
         "los ralos"
       ]
     },
-
     {
       "nombre": "13:15",
       "valor_salida": 13.15,
       "referencia": "vueltas ralos",
-      "recorrido": ["s. m. de tucumán", "cruz alta", "los ralos"]
+      "recorrido": [
+        "s. m. de tucumán",
+        "cruz alta",
+        "los ralos"
+      ]
     },
-
     {
       "nombre": "17:30",
       "valor_salida": 17.3,
       "referencia": "vueltas ralos",
-      "recorrido": ["s. m. de tucumán", "cruz alta", "colonia 9"]
+      "recorrido": [
+        "s. m. de tucumán",
+        "cruz alta",
+        "colonia 9"
+      ]
     },
-
     {
       "nombre": "20:00",
       "valor_salida": 20,
       "referencia": "vueltas ralos",
-      "recorrido": ["s. m. de tucumán", "cruz alta", "los ralos"]
+      "recorrido": [
+        "s. m. de tucumán",
+        "cruz alta",
+        "los ralos"
+      ]
     },
-
     {
       "nombre": "05:20",
       "valor_salida": 5.2,
@@ -3173,7 +3296,12 @@
       "nombre": "15:47",
       "valor_salida": 15.47,
       "referencia": "idas florida/alderetes-alternativa",
-      "recorrido": ["Fortin", "la florida", "alternativa", "s. m. de tucumán"]
+      "recorrido": [
+        "Fortin",
+        "la florida",
+        "alternativa",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "15:50",
@@ -3222,7 +3350,12 @@
       "nombre": "17:35",
       "valor_salida": 17.3,
       "referencia": "idas florida/alderetes-alternativa",
-      "recorrido": ["Col 4", "b° la cancha", "alternativa", "s. m. de tucumán"]
+      "recorrido": [
+        "Col 4",
+        "b° la cancha",
+        "alternativa",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "17:50",
@@ -3242,7 +3375,12 @@
       "nombre": "18:10",
       "valor_salida": 18.1,
       "referencia": "idas florida/alderetes-alternativa",
-      "recorrido": ["Col 4", "b° la cancha", "alternativa", "s. m. de tucumán"]
+      "recorrido": [
+        "Col 4",
+        "b° la cancha",
+        "alternativa",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "18:35",
@@ -3414,7 +3552,6 @@
         "fortín"
       ]
     },
-
     {
       "nombre": "11:15",
       "valor_salida": 11.15,
@@ -3443,7 +3580,6 @@
         "finca mayo"
       ]
     },
-
     {
       "nombre": "12:10",
       "valor_salida": 12.1,
@@ -3456,7 +3592,6 @@
         "la florida"
       ]
     },
-
     {
       "nombre": "12:15",
       "valor_salida": 12.1,
@@ -3469,7 +3604,6 @@
         "Col 4"
       ]
     },
-
     {
       "nombre": "12:40",
       "valor_salida": 12.4,
@@ -3661,7 +3795,6 @@
         "colonia 4 (luisiana)"
       ]
     },
-
     {
       "nombre": "19:00",
       "valor_salida": 19.0,
@@ -3789,9 +3922,7 @@
         "Coronel Suarez",
         "autopista",
         "la florida",
-
         "fortín",
-
         "colonia 4 (luisiana)"
       ]
     },
@@ -3831,85 +3962,137 @@
       "nombre": "05:55",
       "valor_salida": 5.5,
       "referencia": "idas florida/posse",
-      "recorrido": ["Posse", "fila de la orilla", "s. m. de tucumán"]
+      "recorrido": [
+        "Posse",
+        "fila de la orilla",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "06:00",
       "valor_salida": 6.0,
       "referencia": "idas florida/posse",
-      "recorrido": ["Posse", "fila del medio", "s. m. de tucumán"]
+      "recorrido": [
+        "Posse",
+        "fila del medio",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "06:08",
       "valor_salida": 6.0,
       "referencia": "idas florida/posse",
-      "recorrido": ["Posse", "fila de la orilla", "s. m. de tucumán"]
+      "recorrido": [
+        "Posse",
+        "fila de la orilla",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "06:20",
       "valor_salida": 6.2,
       "referencia": "idas florida/posse",
-      "recorrido": ["b° la cancha", "la florida", "s. m. de tucumán"]
+      "recorrido": [
+        "b° la cancha",
+        "la florida",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "06:30",
       "valor_salida": 6.3,
       "referencia": "idas florida/posse",
-      "recorrido": ["posse", "fila del medio", "s. m. de tucumán"]
+      "recorrido": [
+        "posse",
+        "fila del medio",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "06:35",
       "valor_salida": 6.35,
       "referencia": "idas florida/posse",
-      "recorrido": ["posse", "fila de la orilla", "s. m. de tucumán"]
+      "recorrido": [
+        "posse",
+        "fila de la orilla",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "07:00",
       "valor_salida": 7.0,
       "referencia": "idas florida/posse",
-      "recorrido": ["Florida (especial escolar) hasta llona"]
+      "recorrido": [
+        "Florida (especial escolar) hasta llona"
+      ]
     },
     {
       "nombre": "07:03",
       "valor_salida": 7.0,
       "referencia": "idas florida/posse",
-      "recorrido": ["Florida x Posse", "Tuc"]
+      "recorrido": [
+        "Florida x Posse",
+        "Tuc"
+      ]
     },
     {
       "nombre": "07:08",
       "valor_salida": 7.0,
       "referencia": "idas florida/posse",
-      "recorrido": ["posse", "fila del medio", "Tuc"]
+      "recorrido": [
+        "posse",
+        "fila del medio",
+        "Tuc"
+      ]
     },
     {
       "nombre": "07:08",
       "valor_salida": 7.0,
       "referencia": "idas florida/posse",
-      "recorrido": ["posse", "fila de la orilla", "Tuc"]
+      "recorrido": [
+        "posse",
+        "fila de la orilla",
+        "Tuc"
+      ]
     },
     {
       "nombre": "07:20",
       "valor_salida": 7.2,
       "referencia": "idas florida/posse",
-      "recorrido": ["b° la cancha", "Florida x Posse", "Tuc"]
+      "recorrido": [
+        "b° la cancha",
+        "Florida x Posse",
+        "Tuc"
+      ]
     },
     {
       "nombre": "07:40",
       "valor_salida": 7.4,
       "referencia": "idas florida/posse",
-      "recorrido": ["Posse", "fila del medio", "s. m. de tucumán"]
+      "recorrido": [
+        "Posse",
+        "fila del medio",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "07:55",
       "valor_salida": 7.55,
       "referencia": "idas florida/posse",
-      "recorrido": ["Parada S lujan", "s. m. de tucumán"]
+      "recorrido": [
+        "Parada S lujan",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "07:55",
       "valor_salida": 7.55,
       "referencia": "idas florida/posse",
-      "recorrido": ["Fortin", "Florida x Posse", "s. m. de tucumán"]
+      "recorrido": [
+        "Fortin",
+        "Florida x Posse",
+        "s. m. de tucumán"
+      ]
     },
     {
       "nombre": "08:20",
@@ -4987,13 +5170,21 @@
       "nombre": "05:25",
       "valor_salida": 5.25,
       "referencia": "idas ralos",
-      "recorrido": ["finca mayo", "b° trigal", "Infiernillo (trasbordo)"]
+      "recorrido": [
+        "finca mayo",
+        "b° trigal",
+        "Infiernillo (trasbordo)"
+      ]
     },
     {
       "nombre": "05:30",
       "valor_salida": 5.3,
       "referencia": "idas ralos",
-      "recorrido": ["villa tercera", "los ralos", "(trasbordo)"]
+      "recorrido": [
+        "villa tercera",
+        "los ralos",
+        "(trasbordo)"
+      ]
     },
     {
       "nombre": "05:55",
@@ -5962,7 +6153,10 @@
       "nombre": "06:25",
       "valor_salida": 6.25,
       "referencia": "idas las cejas",
-      "recorrido": ["las cejas", "los ralos"]
+      "recorrido": [
+        "las cejas",
+        "los ralos"
+      ]
     },
     {
       "nombre": "07:50",
@@ -5982,7 +6176,11 @@
       "nombre": "12:00",
       "valor_salida": 12,
       "referencia": "idas las cejas",
-      "recorrido": ["las cejas", "los ralos", "(trasbordo)"]
+      "recorrido": [
+        "las cejas",
+        "los ralos",
+        "(trasbordo)"
+      ]
     },
     {
       "nombre": "15:50",
@@ -6299,7 +6497,6 @@
         "colonia 4 (florida)"
       ]
     },
-
     {
       "nombre": "17:45",
       "valor_salida": 17.45,
@@ -6359,7 +6556,6 @@
         "colonia 4 (luisiana)"
       ]
     },
-
     {
       "nombre": "04:50",
       "valor_salida": 4.5,
@@ -6685,7 +6881,6 @@
         "s. m. de tucumán"
       ]
     },
-
     {
       "nombre": "06:00",
       "valor_salida": 6,
@@ -7028,7 +7223,6 @@
         "b° la cancha"
       ]
     },
-
     {
       "nombre": "06:08",
       "valor_salida": 6.08,
@@ -7102,7 +7296,6 @@
         "w. posse"
       ]
     },
-
     {
       "nombre": "20:20",
       "valor_salida": 20.2,
@@ -7112,7 +7305,6 @@
         "banda del río salí",
         "cevil pozo",
         "colonia media agua",
-
         "fila del medio",
         "w. posse"
       ]
@@ -7131,7 +7323,6 @@
         "w. posse"
       ]
     },
-
     {
       "nombre": "05:00",
       "valor_salida": 5,
@@ -7232,7 +7423,12 @@
       "nombre": "12:15",
       "valor_salida": 12.15,
       "referencia": "idas ralos",
-      "recorrido": ["Cruce", "finca mayo", "los ralos", "transbordo"]
+      "recorrido": [
+        "Cruce",
+        "finca mayo",
+        "los ralos",
+        "transbordo"
+      ]
     },
     {
       "nombre": "13:10",
@@ -7403,7 +7599,6 @@
         "s. m. de tucumán"
       ]
     },
-
     {
       "nombre": "06.00",
       "valor_salida": 6,
@@ -7644,7 +7839,6 @@
         "villa tercera"
       ]
     },
-
     {
       "nombre": "20:00",
       "valor_salida": 20,
@@ -7658,7 +7852,6 @@
         "cruz alta"
       ]
     },
-
     {
       "nombre": "07:55",
       "valor_salida": 7.55,
